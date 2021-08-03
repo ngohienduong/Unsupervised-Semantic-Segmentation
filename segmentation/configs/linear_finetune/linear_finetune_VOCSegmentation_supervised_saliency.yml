@@ -13,7 +13,7 @@ backbone: 'resnet50'
 backbone_kwargs:
    dilated: True
 head: 'deeplab'
-pretraining: /path/to/checkpoint.pth.tar # Change this.
+pretraining: /content/gdrive/MyDrive/Model/GIS Building footprint/linear_finetune_VOCSegmentation_unsupervised_saliency.pth.tar
 
 # Optimizer
 epochs: 60
